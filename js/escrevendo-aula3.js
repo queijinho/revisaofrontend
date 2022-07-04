@@ -1,7 +1,7 @@
 var button = document.querySelector("button");
 
 button.onclick = function () {
-    var nome = prompt("?")
+    var nome = prompt("comando para listar todas as branchs?")
     if (nome == "git branch --list"){
         alert("O " + nome + ", serve para listar as branshs. Parabéns você acertou!!!")
     }

@@ -11,6 +11,9 @@ button.onclick = function () {
     if (nome == "git init"){
         alert("O " + nome + ", serve para iniciar o git. Parabéns você acertou!!!")
     }
+    else if(nome == " "){
+        window
+    }
     else{
         alert("Resposta incorreta.")
     }

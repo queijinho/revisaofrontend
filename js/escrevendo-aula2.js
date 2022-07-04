@@ -31,5 +31,6 @@ button.onclick = function () {
     }
     else{
         alert("Resposta incorreta.")
+        window.location="modulo1aula3.html";
     }
 }
