@@ -11,8 +11,8 @@ button.onclick = function () {
     if (nome == "git init"){
         alert("O " + nome + ", serve para iniciar o git. Parabéns você acertou!!!")
     }
-    else if(nome == " "){
-        window
+    else if( pergunta == null || pergunta == " "){
+        window.location="modulo1aula2.html";
     }
     else{
         alert("Resposta incorreta.")
@@ -21,6 +21,9 @@ button.onclick = function () {
     var pergunta = prompt("Qual é o comando para listar as pastas?")
     if (pergunta == "ls"){
         alert("O " + pergunta + ", serve para listar as pastas. Parabéns você acertou!!!")
+    }
+    else if( pergunta == null || pergunta == " "){
+        window.location="modulo1aula2.html";
     }
     else{
         alert("Resposta incorreta.")
